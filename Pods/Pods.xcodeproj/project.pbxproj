@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A927CB058E02959B8498E359F7F31EF /* LLDrawerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 13797794A660AD70692FF97C0156ABDB /* LLDrawerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B510F3D5CA6F16E972154980D791375 /* LLDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA6526A5D8719BB03988D929413F66D /* LLDrawerViewController.m */; };
+		80614E538EC91CD074E45B495503273F /* Pods-LLDrawerViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 323F08F5AB9FBF518E9431A2B559793E /* Pods-LLDrawerViewController-dummy.m */; };
+		FA6A7F44374B8035F156FB69D8763D22 /* LLDrawerViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20718BFB5D3CF69D4347323DC6ED90A3 /* LLDrawerViewController-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82971CD6D1B65EB0D5D2909AC8E58895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE140D37B24E5B95DC7A93443DA69AD;
+			remoteInfo = LLDrawerViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CA6526A5D8719BB03988D929413F66D /* LLDrawerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLDrawerViewController.m; path = LLDrawerViewControllerClass/LLDrawerViewController.m; sourceTree = "<group>"; };
+		0D946F80D5552E406A403AC319A33B55 /* Pods-LLDrawerViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLDrawerViewController.release.xcconfig"; sourceTree = "<group>"; };
+		13797794A660AD70692FF97C0156ABDB /* LLDrawerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLDrawerViewController.h; path = LLDrawerViewControllerClass/LLDrawerViewController.h; sourceTree = "<group>"; };
+		20718BFB5D3CF69D4347323DC6ED90A3 /* LLDrawerViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLDrawerViewController-dummy.m"; sourceTree = "<group>"; };
+		2E489FB8B54705E7A07A48B30AC20AF0 /* libPods-LLDrawerViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LLDrawerViewController.a"; path = "libPods-LLDrawerViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		323F08F5AB9FBF518E9431A2B559793E /* Pods-LLDrawerViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLDrawerViewController-dummy.m"; sourceTree = "<group>"; };
+		3CB66E8D32EB9BAF9CDB2E5992BA719B /* Pods-LLDrawerViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLDrawerViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		4FD7DF4A54A48DC055269C8E5E652B52 /* Pods-LLDrawerViewController-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LLDrawerViewController-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94733007592535C3BADCA51FFC212EBD /* Pods-LLDrawerViewController-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LLDrawerViewController-frameworks.sh"; sourceTree = "<group>"; };
+		A9B6679783A919EEB2F54F140219E1CD /* Pods-LLDrawerViewController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLDrawerViewController-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C0C53951D5A965F060AA6B35731DEC3E /* LLDrawerViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLDrawerViewController.xcconfig; sourceTree = "<group>"; };
+		E0E4EAEBB747E5C785564E026D7C73AA /* Pods-LLDrawerViewController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLDrawerViewController-acknowledgements.plist"; sourceTree = "<group>"; };
+		F8F0EA0B3A78E11A1081B100D5CE0820 /* libLLDrawerViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLLDrawerViewController.a; path = libLLDrawerViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB793DA6EB09647C8AB6887462807174 /* LLDrawerViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLDrawerViewController-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32839B6E554932EC5AA64177AB09CCA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6642A7890F86EC298D4F9B2D952C9708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		079032763DB9201B291E87C41B97852D /* Pods-LLDrawerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A9B6679783A919EEB2F54F140219E1CD /* Pods-LLDrawerViewController-acknowledgements.markdown */,
+				E0E4EAEBB747E5C785564E026D7C73AA /* Pods-LLDrawerViewController-acknowledgements.plist */,
+				323F08F5AB9FBF518E9431A2B559793E /* Pods-LLDrawerViewController-dummy.m */,
+				94733007592535C3BADCA51FFC212EBD /* Pods-LLDrawerViewController-frameworks.sh */,
+				4FD7DF4A54A48DC055269C8E5E652B52 /* Pods-LLDrawerViewController-resources.sh */,
+				3CB66E8D32EB9BAF9CDB2E5992BA719B /* Pods-LLDrawerViewController.debug.xcconfig */,
+				0D946F80D5552E406A403AC319A33B55 /* Pods-LLDrawerViewController.release.xcconfig */,
+			);
+			name = "Pods-LLDrawerViewController";
+			path = "Target Support Files/Pods-LLDrawerViewController";
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1233784416BF72C574F05A2509A1A9F7 /* LLDrawerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				13797794A660AD70692FF97C0156ABDB /* LLDrawerViewController.h */,
+				0CA6526A5D8719BB03988D929413F66D /* LLDrawerViewController.m */,
+				F4D4B286B682850C978D6B85FC83C672 /* Support Files */,
+			);
+			name = LLDrawerViewController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3C8EEF869FAFD4496D0C5358DA44776E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8F0EA0B3A78E11A1081B100D5CE0820 /* libLLDrawerViewController.a */,
+				2E489FB8B54705E7A07A48B30AC20AF0 /* libPods-LLDrawerViewController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		552783502A7B5E60466482826B9EE68A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				079032763DB9201B291E87C41B97852D /* Pods-LLDrawerViewController */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F797BB154D111E26C06BF062F9DFE575 /* Development Pods */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				3C8EEF869FAFD4496D0C5358DA44776E /* Products */,
+				552783502A7B5E60466482826B9EE68A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F4D4B286B682850C978D6B85FC83C672 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0C53951D5A965F060AA6B35731DEC3E /* LLDrawerViewController.xcconfig */,
+				20718BFB5D3CF69D4347323DC6ED90A3 /* LLDrawerViewController-dummy.m */,
+				FB793DA6EB09647C8AB6887462807174 /* LLDrawerViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/LLDrawerViewController";
+			sourceTree = "<group>";
+		};
+		F797BB154D111E26C06BF062F9DFE575 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1233784416BF72C574F05A2509A1A9F7 /* LLDrawerViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6DF8CB0232542D280140B1A95ED0BE28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A927CB058E02959B8498E359F7F31EF /* LLDrawerViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2BE140D37B24E5B95DC7A93443DA69AD /* LLDrawerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A3F0B53BF3A6322B278B68991FDCD4E /* Build configuration list for PBXNativeTarget "LLDrawerViewController" */;
+			buildPhases = (
+				C382BB90D81D5AF9FC2894FFEC9D1010 /* Sources */,
+				32839B6E554932EC5AA64177AB09CCA1 /* Frameworks */,
+				6DF8CB0232542D280140B1A95ED0BE28 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLDrawerViewController;
+			productName = LLDrawerViewController;
+			productReference = F8F0EA0B3A78E11A1081B100D5CE0820 /* libLLDrawerViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3D5A4F5C09CC20DBB56489FE5DB44CE0 /* Pods-LLDrawerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 424BC28A2F8B59261BFB765B0EC972BF /* Build configuration list for PBXNativeTarget "Pods-LLDrawerViewController" */;
+			buildPhases = (
+				C85D9AB33DE68096AE9E38B6D5CEC5CC /* Sources */,
+				6642A7890F86EC298D4F9B2D952C9708 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28FBF498B4F7842D61F5A2B083AD4B13 /* PBXTargetDependency */,
+			);
+			name = "Pods-LLDrawerViewController";
+			productName = "Pods-LLDrawerViewController";
+			productReference = 2E489FB8B54705E7A07A48B30AC20AF0 /* libPods-LLDrawerViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3C8EEF869FAFD4496D0C5358DA44776E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BE140D37B24E5B95DC7A93443DA69AD /* LLDrawerViewController */,
+				3D5A4F5C09CC20DBB56489FE5DB44CE0 /* Pods-LLDrawerViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C382BB90D81D5AF9FC2894FFEC9D1010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6A7F44374B8035F156FB69D8763D22 /* LLDrawerViewController-dummy.m in Sources */,
+				7B510F3D5CA6F16E972154980D791375 /* LLDrawerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85D9AB33DE68096AE9E38B6D5CEC5CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80614E538EC91CD074E45B495503273F /* Pods-LLDrawerViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28FBF498B4F7842D61F5A2B083AD4B13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLDrawerViewController;
+			target = 2BE140D37B24E5B95DC7A93443DA69AD /* LLDrawerViewController */;
+			targetProxy = 82971CD6D1B65EB0D5D2909AC8E58895 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16AE78E5186954927814802C0863B871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0C53951D5A965F060AA6B35731DEC3E /* LLDrawerViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LLDrawerViewController/LLDrawerViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1090D76B6A8D4ED3828A680C29C11B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D946F80D5552E406A403AC319A33B55 /* Pods-LLDrawerViewController.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D326EE8920C0E5E05F545D3A5045934C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0C53951D5A965F060AA6B35731DEC3E /* LLDrawerViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LLDrawerViewController/LLDrawerViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D39BD1757012A3CCE1B9193E146DD6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CB66E8D32EB9BAF9CDB2E5992BA719B /* Pods-LLDrawerViewController.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
+				DA03565BE765DB55C6448FB363A44481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		424BC28A2F8B59261BFB765B0EC972BF /* Build configuration list for PBXNativeTarget "Pods-LLDrawerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39BD1757012A3CCE1B9193E146DD6BE /* Debug */,
+				A1090D76B6A8D4ED3828A680C29C11B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A3F0B53BF3A6322B278B68991FDCD4E /* Build configuration list for PBXNativeTarget "LLDrawerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D326EE8920C0E5E05F545D3A5045934C /* Debug */,
+				16AE78E5186954927814802C0863B871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
